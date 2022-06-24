@@ -7,3 +7,4 @@ how many light bulbs have to surround it.
 In this repository a informed depth search is implemented, which can solve light puzzles up to a dimension of 28x28 or sometimes higher.
 
 ## Architecture
+The search algorithm is completely implemented in Java. Light Puzzles can be fed into the software as csv file. The csv gets converted to a 
