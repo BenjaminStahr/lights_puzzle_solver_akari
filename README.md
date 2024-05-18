@@ -9,6 +9,7 @@ In this repository, an informed depth search is implemented, which can solve lig
 ## Setup
 
 Java: OpenJDK 15.0.2
+
 Maven: Ensure Maven is installed on your machine.
 
 Execute the main method located in src/main/java/Main.java. Inside the method, different heuristics can be selected.
