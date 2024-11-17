@@ -23,7 +23,7 @@ The solver employs an **Informed Depth Search** algorithm in Java, designed to m
 
 Our evaluation underscored that heuristics were essential not only for improving search efficiency but also for making it possible to find solutions within a reasonable time frame. Without heuristics, the search space for a 28x28 grid would be too vast to find a solution even within hours.
 
-- **Most Excluded, Free First**: This heuristic was consistently the most effective overall. By prioritizing cells with restricted placement options, it focused the search on high-potential moves while minimizing backtracking. This approach was particularly valuable for larger puzzles, where reducing unnecessary exploration was critical.
+- **Most Excluded, Free First**: This heuristic was consistently the most effective overall. By prioritizing cells with restricted placement options, it focused the search on high-potential moves while minimizing backtracking.
 
 - **Most Walls**: Ideal for puzzles with complex wall structures, this heuristic focused on cells near walls, helping to quickly establish a structured path. By aligning bulb placements closely with wall constraints, it often solved puzzles more efficiently than other approaches when wall density was high.
 
