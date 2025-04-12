@@ -9,7 +9,7 @@ The solver employs an **Informed Depth Search** algorithm in Java, designed to m
 
 ### Key Features
 - **Custom Heuristics for Search Efficiency**:
-  - **Most Excluded, Free First**: Prioritizes placements that maximize illumination and are not adjacent to walls while adhering to constraints. This heuristic was particularly effective in reducing search time for complex puzzles by selecting moves that illuminated many cells.
+  - **Most Excluded, Free First**: Prioritizes placements that maximize illumination and are not adjacent to walls while adhering to constraints.
   - **Most Light Up**: Places bulbs to maximize immediate cell illumination but did not perform as consistently across puzzles due to less constraint focus.
   - **High Wall Numbers First**: Focuses on placing bulbs near walls with high number requirements, useful for puzzles where wall constraints heavily guided bulb positions.
 
